@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import "./app.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -12,8 +13,8 @@ const App = () => {
         <div className="mt-5">
           <Switch>
             <Route path="/" exact component={Home} />
-            {/* <Route path="/profile" component={Profile} />
-            <Route path="/transcribe" component={Transcribe} /> */}
+            <Route path="/profile" component={Profile} />
+            {/* <Route path="/transcribe" component={Transcribe} /> */}
           </Switch>
         </div>
       </div>
