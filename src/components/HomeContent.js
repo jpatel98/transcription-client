@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomeContent = () => (
-  <div className="next-steps">
+  <div className="next-steps px-1">
     <h2 className="my-5 text-center">How does this work?</h2>
 
     <div className="row">
