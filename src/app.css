@@ -1,4 +1,6 @@
-
+.nav-pills{
+  color: rgb(130, 126, 133);
+}
 .next-steps .fa-link {
     margin-right: 5px;
   }
