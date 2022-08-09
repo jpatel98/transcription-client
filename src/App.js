@@ -4,6 +4,7 @@ import "./app.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
+import Transcribe from "./pages/Transcribe";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/profile" component={Profile} />
-            {/* <Route path="/transcribe" component={Transcribe} /> */}
+            <Route path="/transcribe" component={Transcribe} />
           </Switch>
         </div>
       </div>
