@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Transcribe from "./pages/Transcribe";
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           </Switch>
         </div>
       </div>
-      {/* <Footer /> */}
+      
     </div>
   );
 };

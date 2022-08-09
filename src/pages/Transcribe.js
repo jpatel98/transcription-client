@@ -44,19 +44,19 @@ function Transcribe() {
   console.log(loading);
   return (
     
-    <div className="App w-100">
+    <div className="App">
       <h2>Upload your files</h2>
       <div className="d-flex flex-column justify-content-end mb-5">
         <form onSubmit={onSubmitHandler}> 
-          <input type="file" onChange={fileChangeHandler} encType="multipart/form-data" className="mb-3 btn-sm border border-secondary rounded p-2 w-25" required/>
+          <input type="file" onChange={fileChangeHandler} encType="multipart/form-data" className="mb-3 btn-sm border border-secondary rounded p-2" required/>
           <button className="btn btn-primary btn-block w-25" type="submit">{loading ? <span><Spinner type="spin" color="white"/></span>: <span>Transcribe</span>}</button>
         </form>
       </div>
       
       <div>
-        
         <audio src={audioSrc} type="audio" controls/>
         {utterances ? utterances.map(u => <p key={Math.random()*10}><span className="badge badge-secondary"> Speaker {u.speaker}: </span> ({new Date(u.start).toISOString().slice(11, 19)}) {u.text} ({new Date(u.end).toISOString().slice(11, 19)})</p>) : <p></p>}
+       
       </div>
       
 
