@@ -20,7 +20,7 @@ const App = () => {
           </Switch>
         </div>
       </div>
-      <Footer />
+      
     </div>
   );
 };
