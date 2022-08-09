@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what Netlify serves
-/             /
-/profile              /profile
-/transcribe           /transcribe
+/             /https://scribe11.netlify.app/
+/profile              https://scribe11.netlify.app/profile
+/transcribe           https://scribe11.netlify.app/transcribe
