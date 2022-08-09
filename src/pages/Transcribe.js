@@ -23,7 +23,7 @@ function Transcribe() {
     setLoading(true);
     const data = new FormData();
     data.append("audio", fileData);
-    const server = "http://localhost:8080";
+    const server = "https://transcript-server.herokuapp.com/";
 
     // Send request to backend - Single upload
     let response = await fetch(`${server}/transcript`, {
