@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what Netlify serves
+/             /
+/profile              /profile
+/transcribe           /transcribe
