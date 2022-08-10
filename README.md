@@ -69,6 +69,7 @@ Lessons learned while building this project.
 
 ## Deployment
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed2189ea-4926-404b-bc81-0d155860732f/deploy-status?branch=develop)](https://app.netlify.com/sites/scribe11/deploys)
+
 You can check the live app at - https://scribe11.xyz/ 
 
 **NOTE**: A bug is preventing users from uploading files longer than 30 seconds. Please refrain from uploading files longer than 30 seconds until the issue resolves. 
