@@ -7,7 +7,7 @@ const HomeContent = () => (
     <div className="row">
       <div className="col-md-5 mb-4">
         <h6 className="mb-3 text-primary">
-          Upload your audio
+          Upload your audio 📢
         </h6>
         <p>
           Head to the "transcribe" page, upload your audio file (preferably mp3) and forget the rest.
@@ -19,7 +19,7 @@ const HomeContent = () => (
 
       <div className="col-md-5 mb-4">
         <h6 className="mb-3 text-primary">
-          Login via 3rd party
+          Login via 3rd party 🔐
         </h6>
         <p>
           Add an extra layer of security by logging in the app using your Google credentials.
@@ -32,7 +32,7 @@ const HomeContent = () => (
     <div className="row">
       <div className="col-md-5 mb-4">
         <h6 className="mb-3 text-primary">
-          Speaker Detection
+          Speaker Detection👻
         </h6>
         <p>
           Transcribe will detect the speaker change in the audio and automatically switch to the next line making it easier to keep track of speakers.
@@ -43,10 +43,10 @@ const HomeContent = () => (
 
       <div className="col-md-5 mb-4">
         <h6 className="mb-3 text-primary">
-         Ad Free / No Spam
+         100% Free / User-First 🫵
         </h6>
         <p>
-          We run on the support of users like you. We will never sell ads or spam you with email (exceptions apply 🤪)
+          We are 100% free and will never sell ads or spam your email.
         </p>
       </div>
     </div>

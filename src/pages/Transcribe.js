@@ -41,7 +41,7 @@ function Transcribe() {
     setUtterance(responseData.utterances);
     // console.log(responseData.utterances);
   };
-  console.log(loading);
+
   return (
     
     <div className="App">
