@@ -1,14 +1,14 @@
-import React, { Fragment } from "react";
+
 import Hero from "../components/Hero";
 import HomeContent from "../components/HomeContent";
 
 
 const Home = () => (
-  <Fragment>
+  <section>
     <Hero/>
     <hr />
     <HomeContent/>
-  </Fragment>
+  </section>
 );
 
 export default Home;
