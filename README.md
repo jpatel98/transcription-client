@@ -30,7 +30,7 @@ Install dependencies
 ```
 ### Environment Variables
 
-To implement [Auth0](https://auth0.com/docs/quickstart/spa/react/01-login) in this project, you will need to add the following environment variables to your .env file
+To implement [Auth0](https://auth0.com/docs/quickstart/spa/react/01-login) in this project, you will need to add the following env variables.
 
 `REACT_APP_AUTH0_DOMAIN`
 
@@ -66,7 +66,7 @@ Lessons learned while building this project.
 
 
 ## Deployment
-The frontend is automatically being deployed to Netlify via the Main branch.
+The frontend is automatically being deployed to Netlify via the main branch of this repo.
 
 Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/ed2189ea-4926-404b-bc81-0d155860732f/deploy-status?branch=develop)](https://app.netlify.com/sites/scribe11/deploys)
 
