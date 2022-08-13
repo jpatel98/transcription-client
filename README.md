@@ -1,6 +1,7 @@
 # Scribe11.xyz
 
-Scribe11.xyz uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for 1) journalists to transcribe interview quotes, press conferences etc 2) students to transcribe long tutorials, lectures etc and have them for notes 3) office teams to make meeting notes for members who may have missed the meeting.
+Scribe11.xyz uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
+
 ## Frontend Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
