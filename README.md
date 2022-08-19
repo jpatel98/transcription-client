@@ -64,6 +64,3 @@ Lessons learned while building this project.
 - Create a transcript editor using Draft.js.
 - Add realtime transcription feature.
 
-
-**NOTE**: A bug is preventing users from uploading files longer than 30 seconds. Please refrain from uploading files longer than 30 seconds until the issue resolves. 
-You may use files from [this repository.](https://github.com/jpatel98/scribe11-test-audio)
