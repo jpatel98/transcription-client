@@ -2,6 +2,8 @@
 
 The app uses [Assembly AI's](https://www.assemblyai.com/) API to convert user inputted audio to text, making it easier for everyone from journalists to students to transcribe speech and make notes.
 
+*NOTE: This app needs the [transcription-server](https://github.com/jpatel98/transcription-server) to run in parallel for full functionality*
+
 ## Frontend Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
