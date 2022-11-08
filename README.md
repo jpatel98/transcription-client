@@ -31,13 +31,6 @@ Install dependencies
 ```bash
   npm install
 ```
-### Environment Variables
-
-To implement [Auth0](https://auth0.com/docs/quickstart/spa/react/01-login) in this project, you will need to add the following env variables.
-
-`REACT_APP_AUTH0_DOMAIN`
-
-`REACT_APP_AUTH0_CLIENT_ID`
 
 Start the app
 
@@ -50,6 +43,15 @@ Make a prod build
 ```bash
   npm run build
 ```
+
+### Environment Variables
+
+To implement [Auth0](https://auth0.com/docs/quickstart/spa/react/01-login) in this project, you will need to add the following env variables.
+
+`REACT_APP_AUTH0_DOMAIN`
+
+`REACT_APP_AUTH0_CLIENT_ID`
+
 ## Lessons Learned
 
 Lessons learned while building this project.
